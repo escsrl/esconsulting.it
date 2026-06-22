@@ -45,11 +45,6 @@ export default {
     ],
     script: [
       {
-        src:
-          'https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver',
-        body: true
-      },
-      {
         hid: 'cookiebotscript',
         src: 'https://consent.cookiebot.com/uc.js',
         'data-cbid': 'c4bb327a-1dd8-4230-871d-700d9864d989',
